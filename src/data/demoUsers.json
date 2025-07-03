@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "user@demo.com",
+      "password": "password123",
+      "phone": 1234567890,
+      "age": 28,
+      "gender": "MALE",
+      "role": "USER",
+      "interests": ["hiking", "photography", "coding"],
+      "token": "user_token_123"
+    },
+    {
+      "id": 2,
+      "name": "Admin User",
+      "email": "admin@demo.com",
+      "password": "admin123",
+      "phone": 9876543210,
+      "age": 35,
+      "gender": "MALE",
+      "role": "ADMIN",
+      "interests": ["management", "analytics", "technology"],
+      "token": "admin_token_456"
+    },
+    {
+      "id": 3,
+      "name": "Emma Wilson",
+      "email": "emma@demo.com",
+      "password": "password123",
+      "phone": 5551234567,
+      "age": 26,
+      "gender": "FEMALE",
+      "role": "USER",
+      "interests": ["travel", "music", "art"],
+      "token": "user_token_789"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Admin",
+      "email": "sarah.admin@demo.com",
+      "password": "admin123",
+      "phone": 5559876543,
+      "age": 32,
+      "gender": "FEMALE",
+      "role": "ADMIN",
+      "interests": ["leadership", "data analysis", "design"],
+      "token": "admin_token_321"
+    },
+    {
+      "id": 5,
+      "name": "Mike Johnson",
+      "email": "mike@demo.com",
+      "password": "password123",
+      "phone": 5555678901,
+      "age": 30,
+      "gender": "MALE",
+      "role": "USER",
+      "interests": ["sports", "cooking", "gaming"],
+      "token": "user_token_654"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Chen",
+      "email": "lisa@demo.com",
+      "password": "password123",
+      "phone": 5551239876,
+      "age": 24,
+      "gender": "FEMALE",
+      "role": "USER",
+      "interests": ["yoga", "reading", "nature"],
+      "token": "user_token_987"
+    }
+  ]
+}
