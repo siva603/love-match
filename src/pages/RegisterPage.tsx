@@ -58,6 +58,7 @@ export const RegisterPage: React.FC = () => {
     setIsLoading(true);
 
     try {
+      console.log(`register : ${formData}`)
       await userService.register(formData);
       toast({
         title: "Account created successfully!",

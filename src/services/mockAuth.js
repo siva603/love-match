@@ -1,5 +1,3 @@
-import { useDayPicker } from 'react-day-picker';
-import demoUsers from '../data/demoUsers.json';
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 // Mock authentication service for demo purposes
@@ -25,7 +23,7 @@ export const mockAuthService = {
   // Simulate register API call
   // Real register API call
 register: async (userData) => {
-  console.log(useData)
+  console.log(`auth : ${userData}`)
   const response = await fetch(`${API_BASE_URL}/users`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

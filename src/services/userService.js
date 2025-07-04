@@ -10,6 +10,7 @@ export const userService = {
   },
 
   async register(userData) {
+    console.log(`user service : ${userData}`)
     return await mockAuthService.register(userData);
   },
 
